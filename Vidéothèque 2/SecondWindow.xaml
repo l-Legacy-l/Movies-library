@@ -1,0 +1,57 @@
+﻿<Window x:Class="Vidéothèque_2.SecondWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Vidéothèque_2"
+        mc:Ignorable="d"
+        Title="SecondWindow" Height="639.333" Width="894.667">
+    <Grid Margin="0,0,0,-2">
+        <Button x:Name="button" Content="Précédent" HorizontalAlignment="Left" Margin="44,572,0,0" VerticalAlignment="Top" Width="76" Click="listenerBack"/>
+        <DataGrid AutoGenerateColumns="False" x:Name="dataGrid" HorizontalAlignment="Left" Margin="44,64,0,0" VerticalAlignment="Top" Height="460" Width="800" ItemsSource="{Binding}">
+            <DataGrid.Columns>
+                <DataGridCheckBoxColumn Header="Vu" Width="30" Binding="{Binding IsVu}"/>
+                <DataGridTextColumn Header="Titre" Binding="{Binding Titre}" Width="80">
+                    <DataGridTextColumn.ElementStyle>
+                        <Style>
+                            <Setter Property="TextBlock.TextWrapping" Value="Wrap" />
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn Header="Auteur" Width="80" Binding="{Binding Auteur}">
+                    <DataGridTextColumn.ElementStyle>
+                        <Style>
+                            <Setter Property="TextBlock.TextWrapping" Value="Wrap" />
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn Header="Genre" Width="60" Binding="{Binding Genre}"/>
+                <DataGridTextColumn Header="Date" Width="70" Binding="{Binding Date}"/>
+                <DataGridTextColumn Header="Résumé" Width="200" Binding="{Binding Resume}">
+                    <DataGridTextColumn.ElementStyle>
+                        <Style>
+                            <Setter Property="TextBlock.TextWrapping" Value="Wrap" />
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+                <DataGridTemplateColumn Header="Affiche"  Width="235"  >
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Image  Width="230" Height="130" Source="{Binding Chemin}" />
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+            </DataGrid.Columns>
+        </DataGrid>
+        <Label x:Name="label_Copy5" Content="Ma vidéothèque" HorizontalAlignment="Left" Margin="386,10,0,0" VerticalAlignment="Top" Width="122" FontWeight="Bold" FontStyle="Italic" FontSize="14"/>
+        <Label x:Name="label" Content="Remarque: " HorizontalAlignment="Left" Margin="372,529,0,0" VerticalAlignment="Top" Width="70" Height="25" FontWeight="Bold" FontSize="11"/>
+        <Label x:Name="label1" Content="Pour supprimer un film, il suffit d'en sélectionner un et d'appuyer &#xD;&#xA;sur la touche delete (DEL ou suppr)&#xD;&#xA;&#xD;&#xA;Pour éditer un film, cliquer 2 fois sur un champ et entrer les nouvelles données&#xD;&#xA;" HorizontalAlignment="Left" Margin="433,530,0,0" VerticalAlignment="Top" Width="411" FontSize="10" Height="70"/>
+        <Menu x:Name="menu" HorizontalAlignment="Left" Height="18" VerticalAlignment="Top" Width="887">
+            <MenuItem Header="Option" Width="52">
+                <MenuItem x:Name="clearVid" Header="Nettoyer la vidéothèque" HorizontalAlignment="Left" Width="214" Margin="0,0,-41,0" Click="clearVid_Click"/>
+            </MenuItem>
+        </Menu>
+
+    </Grid>
+</Window>

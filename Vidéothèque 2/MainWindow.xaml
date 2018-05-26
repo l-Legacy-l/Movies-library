@@ -1,0 +1,64 @@
+﻿<Window x:Class="Vidéothèque_2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Vidéothèque_2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600.667" Width="806">
+    <Grid RenderTransformOrigin="0.5,0.5" Margin="0,1,-2,-4">
+        <Grid.RenderTransform>
+            <TransformGroup>
+                <ScaleTransform/>
+                <SkewTransform/>
+                <RotateTransform Angle="-0.389"/>
+                <TranslateTransform/>
+            </TransformGroup>
+        </Grid.RenderTransform>
+        <TextBox x:Name="textTitre" HorizontalAlignment="Left" Height="23" Margin="33,143,0,0" Text="{Binding Titre}" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label_Copy3" Content="Titre du film:" HorizontalAlignment="Left" Margin="33,112,0,0"  VerticalAlignment="Top" Width="86" FontWeight="Bold"/>
+        <Label x:Name="label_Copy4" Content="Auteur:" HorizontalAlignment="Left" Margin="33,188,0,0" VerticalAlignment="Top" Width="91" FontWeight="Bold"/>
+        <TextBox x:Name="textAuteur" HorizontalAlignment="Left" Height="23" Margin="33,219,0,0" Text="{Binding Auteur}"  VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label_Copy" Content="Date de parution: " HorizontalAlignment="Left" Margin="33,270,0,0" VerticalAlignment="Top" Width="120" FontWeight="Bold"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="156" Margin="557,255,0,0"  VerticalAlignment="Top" Source="{Binding Chemin}" Width="200" />
+        <Button x:Name="btnParcourir" Content="Parcourir" HorizontalAlignment="Left" Margin="667,443,0,0" VerticalAlignment="Top" Width="75" Click="ParcourirListener"/>
+        <Label x:Name="label_Copy1" Content="Image du film: " HorizontalAlignment="Left" Margin="557,210,0,0" VerticalAlignment="Top" Width="100" FontWeight="Bold"/>
+        <Label x:Name="label_Copy2" Content="Genre:" HorizontalAlignment="Left" Margin="33,357,0,0" VerticalAlignment="Top" Width="120" FontWeight="Bold"/>
+        <Label x:Name="label_Copy5" Content="Ajout d'un film" HorizontalAlignment="Left" Margin="353,70,0,0" VerticalAlignment="Top" Width="110" FontWeight="Bold" FontStyle="Italic" FontSize="14"/>
+        <Button x:Name="btnAjout" Content="Ajouter" HorizontalAlignment="Left" Margin="363,519,0,0" VerticalAlignment="Top" Width="75" Click="ajouterFilmListener" IsHitTestVisible="True"/>
+        <Menu x:Name="menu" HorizontalAlignment="Left" Height="22" VerticalAlignment="Top" Width="800">
+            <MenuItem Header="Fichier">
+                <MenuItem x:Name="export" Header="Sauvegarder" HorizontalAlignment="Left" Width="171" Click="save" Margin="0,0,-39,0"/>
+                <MenuItem x:Name="charger" Header="Charger" HorizontalAlignment="Left" Width="181" Click="load" Height="24" Margin="0,0,-49,0"/>
+            </MenuItem>
+            <MenuItem Header="Options" Width="53">
+                <MenuItem x:Name="clearMode" Header="Nettoyer les champs après un ajout" HorizontalAlignment="Left" Width="276" IsCheckable="True" IsChecked="True" Margin="0,0,-26,0"/>
+                <MenuItem x:Name="clearAll" Header="Nettoyer les champs" HorizontalAlignment="Left" Width="196" Margin="0,0,-16,0" Click="clearAll_Click"/>
+                <MenuItem x:Name="googleSearch" Header="Rechercher l'image sur Google" HorizontalAlignment="Left" Width="250" Margin="0,0,-49,0" RenderTransformOrigin="0.5,0.542" Click="googleSearch_Click"/>
+                <MenuItem x:Name="AllocineSearch" Header="Rechercher le film sur Allocine" HorizontalAlignment="Left" Width="250" Click="AllocineSearch_Click"/>
+
+            </MenuItem>
+            <MenuItem Header="Aide">
+                <MenuItem Header="Comment utiliser ? " HorizontalAlignment="Left" Width="188" Margin="0,0,-48,0" Click="MenuItem_Click_1"/>
+                <MenuItem Header="À propos" HorizontalAlignment="Left" Width="140" Click="MenuItem_Click"/>
+            </MenuItem>
+
+        </Menu>
+        <TextBox x:Name="textResume" HorizontalAlignment="Left" Height="156" Margin="237,255,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="{Binding Resume}" Width="226"/>
+        <Label x:Name="label_Copy6" Content="Résumé:" HorizontalAlignment="Left" Margin="237,210,0,0" VerticalAlignment="Top" Width="120" FontWeight="Bold"/>
+        <Button x:Name="button_Copy1" Content="Consulter ma vidéothèque" HorizontalAlignment="Left" Margin="33,507,0,0" VerticalAlignment="Top" Width="156" Click="listenerVideotheque" Height="44"/>
+        <ComboBox x:Name="textGenre" HorizontalAlignment="Left" Margin="33,389,0,0" VerticalAlignment="Top" Text="{Binding Genre}" Width="120">
+            <ComboBoxItem Content="Action" HorizontalAlignment="Left" Width="118"/>
+            <ComboBoxItem Content="Animation" HorizontalAlignment="Left" Width="118"/>
+            <ComboBoxItem Content="Aventure" HorizontalAlignment="Left" Width="118"/>
+            <ComboBoxItem Content="Comédie" HorizontalAlignment="Left" Width="118"/>
+            <ComboBoxItem Content="Drame" HorizontalAlignment="Left" Width="118"/>
+            <ComboBoxItem Content="Horreur" HorizontalAlignment="Left" Width="118"/>
+            <ComboBoxItem Content="Thriller" HorizontalAlignment="Left" Width="118"/>
+            <ComboBoxItem Content="Autres" HorizontalAlignment="Left" Width="118"/>
+        </ComboBox>
+        <DatePicker x:Name="date" HorizontalAlignment="Left" Margin="33,317,0,0" Text="{Binding Date}" VerticalAlignment="Top" DisplayDate="2017-05-17" IsHitTestVisible="True" AutomationProperties.IsColumnHeader="True" Focusable="False" Width="156"/>
+        <CheckBox x:Name="checkIsVu"  Content="Vu" HorizontalAlignment="Left" Margin="33,443,0,0" VerticalAlignment="Top" IsChecked="{Binding IsVu}"/>
+
+    </Grid>
+</Window>

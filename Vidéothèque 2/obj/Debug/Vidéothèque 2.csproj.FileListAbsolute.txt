@@ -1,0 +1,32 @@
+c:\users\fabio\onedrive\documents\visual studio 2015\Projects\Vidéothèque 2\Vidéothèque 2\bin\Debug\Vidéothèque 2.exe.config
+C:\Users\Fabio\OneDrive\Documents\Visual Studio 2015\Projects\Vidéothèque 2\Vidéothèque 2\obj\Debug\Vidéothèque 2.csprojResolveAssemblyReference.cache
+C:\Users\Fabio\OneDrive\Documents\Visual Studio 2015\Projects\Vidéothèque 2\Vidéothèque 2\obj\Debug\MainWindow.g.cs
+C:\Users\Fabio\OneDrive\Documents\Visual Studio 2015\Projects\Vidéothèque 2\Vidéothèque 2\obj\Debug\App.g.cs
+C:\Users\Fabio\OneDrive\Documents\Visual Studio 2015\Projects\Vidéothèque 2\Vidéothèque 2\obj\Debug\Vidéothèque 2_MarkupCompile.cache
+C:\Users\Fabio\OneDrive\Documents\Visual Studio 2015\Projects\Vidéothèque 2\Vidéothèque 2\obj\Debug\Vidéothèque 2_MarkupCompile.lref
+C:\Users\Fabio\OneDrive\Documents\Visual Studio 2015\Projects\Vidéothèque 2\Vidéothèque 2\bin\Debug\Vidéothèque 2.exe
+C:\Users\Fabio\OneDrive\Documents\Visual Studio 2015\Projects\Vidéothèque 2\Vidéothèque 2\bin\Debug\Vidéothèque 2.pdb
+C:\Users\Fabio\OneDrive\Documents\Visual Studio 2015\Projects\Vidéothèque 2\Vidéothèque 2\obj\Debug\MainWindow.baml
+C:\Users\Fabio\OneDrive\Documents\Visual Studio 2015\Projects\Vidéothèque 2\Vidéothèque 2\obj\Debug\Vidéothèque 2.g.resources
+C:\Users\Fabio\OneDrive\Documents\Visual Studio 2015\Projects\Vidéothèque 2\Vidéothèque 2\obj\Debug\Vidéothèque_2.Properties.Resources.resources
+C:\Users\Fabio\OneDrive\Documents\Visual Studio 2015\Projects\Vidéothèque 2\Vidéothèque 2\obj\Debug\Vidéothèque 2.csproj.GenerateResource.Cache
+C:\Users\Fabio\OneDrive\Documents\Visual Studio 2015\Projects\Vidéothèque 2\Vidéothèque 2\obj\Debug\Vidéothèque 2.exe
+C:\Users\Fabio\OneDrive\Documents\Visual Studio 2015\Projects\Vidéothèque 2\Vidéothèque 2\obj\Debug\Vidéothèque 2.pdb
+C:\Users\Fabio\OneDrive\Documents\Visual Studio 2015\Projects\Vidéothèque 2\Vidéothèque 2\obj\Debug\SecondWindow.g.cs
+C:\Users\Fabio\OneDrive\Documents\Visual Studio 2015\Projects\Vidéothèque 2\Vidéothèque 2\obj\Debug\SecondWindow.baml
+C:\Users\Fabio\OneDrive - Haute Ecole en Hainaut\Documents\BAC 1\Visual Studio 2015\Projet Fabio Cumbo groupe 4\Vidéothèque 2\Vidéothèque 2\bin\Debug\Vidéothèque 2.exe.config
+C:\Users\Fabio\OneDrive - Haute Ecole en Hainaut\Documents\BAC 1\Visual Studio 2015\Projet Fabio Cumbo groupe 4\Vidéothèque 2\Vidéothèque 2\obj\Debug\Vidéothèque 2.exe
+C:\Users\Fabio\OneDrive - Haute Ecole en Hainaut\Documents\BAC 1\Visual Studio 2015\Projet Fabio Cumbo groupe 4\Vidéothèque 2\Vidéothèque 2\obj\Debug\Vidéothèque 2.pdb
+C:\Users\Fabio\OneDrive - Haute Ecole en Hainaut\Documents\BAC 1\Visual Studio 2015\Projet Fabio Cumbo groupe 4\Vidéothèque 2\Vidéothèque 2\bin\Debug\Vidéothèque 2.exe
+C:\Users\Fabio\OneDrive - Haute Ecole en Hainaut\Documents\BAC 1\Visual Studio 2015\Projet Fabio Cumbo groupe 4\Vidéothèque 2\Vidéothèque 2\bin\Debug\Vidéothèque 2.pdb
+C:\Users\Fabio\OneDrive - Haute Ecole en Hainaut\Documents\BAC 1\Visual Studio 2015\Projet Fabio Cumbo groupe 4\Vidéothèque 2\Vidéothèque 2\obj\Debug\Vidéothèque 2.csprojResolveAssemblyReference.cache
+C:\Users\Fabio\OneDrive - Haute Ecole en Hainaut\Documents\BAC 1\Visual Studio 2015\Projet Fabio Cumbo groupe 4\Vidéothèque 2\Vidéothèque 2\obj\Debug\MainWindow.g.cs
+C:\Users\Fabio\OneDrive - Haute Ecole en Hainaut\Documents\BAC 1\Visual Studio 2015\Projet Fabio Cumbo groupe 4\Vidéothèque 2\Vidéothèque 2\obj\Debug\SecondWindow.g.cs
+C:\Users\Fabio\OneDrive - Haute Ecole en Hainaut\Documents\BAC 1\Visual Studio 2015\Projet Fabio Cumbo groupe 4\Vidéothèque 2\Vidéothèque 2\obj\Debug\App.g.cs
+C:\Users\Fabio\OneDrive - Haute Ecole en Hainaut\Documents\BAC 1\Visual Studio 2015\Projet Fabio Cumbo groupe 4\Vidéothèque 2\Vidéothèque 2\obj\Debug\Vidéothèque 2_MarkupCompile.cache
+C:\Users\Fabio\OneDrive - Haute Ecole en Hainaut\Documents\BAC 1\Visual Studio 2015\Projet Fabio Cumbo groupe 4\Vidéothèque 2\Vidéothèque 2\obj\Debug\Vidéothèque 2_MarkupCompile.lref
+C:\Users\Fabio\OneDrive - Haute Ecole en Hainaut\Documents\BAC 1\Visual Studio 2015\Projet Fabio Cumbo groupe 4\Vidéothèque 2\Vidéothèque 2\obj\Debug\MainWindow.baml
+C:\Users\Fabio\OneDrive - Haute Ecole en Hainaut\Documents\BAC 1\Visual Studio 2015\Projet Fabio Cumbo groupe 4\Vidéothèque 2\Vidéothèque 2\obj\Debug\SecondWindow.baml
+C:\Users\Fabio\OneDrive - Haute Ecole en Hainaut\Documents\BAC 1\Visual Studio 2015\Projet Fabio Cumbo groupe 4\Vidéothèque 2\Vidéothèque 2\obj\Debug\Vidéothèque 2.g.resources
+C:\Users\Fabio\OneDrive - Haute Ecole en Hainaut\Documents\BAC 1\Visual Studio 2015\Projet Fabio Cumbo groupe 4\Vidéothèque 2\Vidéothèque 2\obj\Debug\Vidéothèque_2.Properties.Resources.resources
+C:\Users\Fabio\OneDrive - Haute Ecole en Hainaut\Documents\BAC 1\Visual Studio 2015\Projet Fabio Cumbo groupe 4\Vidéothèque 2\Vidéothèque 2\obj\Debug\Vidéothèque 2.csproj.GenerateResource.Cache
